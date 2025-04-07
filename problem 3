@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+void MiniCalc(int number1, int number2);
+
+int main() {
+	int l1, l2;
+	cout << "enter two numbers" << endl; 
+	cin >> l1;
+	cin >> l2;
+	MiniCalc(l1, l2);
+
+}
+void MiniCalc(int number1, int number2) {
+	cout << "added:" << number1 + number2 << endl;
+	cout << "sub:" << number1 - number2 << endl;
+	cout << "multi:" << number1 * number2 << endl;
+	cout << "divi:" << number1 / number2 << endl;
+
+}
