@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+	int patato;
+	cout << "pick a number between 10 and 100" << endl; 
+	cin >> patato;
+
+	for (int i = 10; i <= patato; i+=2)
+		cout << i << " ";
+
+
+
+}
